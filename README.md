@@ -21,18 +21,16 @@ Hierarchical Nature: The taxonomic ranks are hierarchical, meaning that errors a
 1. Install and Set Up QIIME2:
 
 Ensure you have QIIME2 installed on your system. You can install it using conda:
-bash
 
 ```
-conda create -n qiime2-2024.8 --file https://data.qiime2.org/distro/core/qiime2-2024.8-py38-linux-conda.yml
+source ~/anaconda3/bin/activate
 
-conda activate qiime2-2024.8
+conda activate qiime2-amplicon-2023.9
 ```
 
 2. Data Acquisition:
 
 Sample Data: If you don’t have your dataset, QIIME2 provides sample data that you can use to get started. You can download it directly:
-bash
 
 ```
 qiime tools import \
